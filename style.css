@@ -1,0 +1,134 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  background: #2f1994;
+  overflow-x: hidden;
+}
+
+.youTube {
+  width: 100vw;
+  min-height: 6rem;
+  background: white;
+  padding: 0 3rem;
+  position: relative;
+}
+
+.youTube .nav-youtube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.youTube .nav-youtube h2 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  line-height: 6rem;
+}
+
+.youTube .nav-youtube h2 span {
+  color: crimson;
+}
+
+.youTube .nav-youtube .formData {
+  padding: 0 3rem;
+}
+
+.youTube .nav-youtube .formData .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 6rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.youTube .nav-youtube .formData .form .failds {
+  min-width: 35rem;
+}
+
+.youTube .nav-youtube .formData .form .failds input {
+  width: 95%;
+  min-height: 3.5rem;
+  border: 0.1rem solid crimson;
+  outline: none;
+  border-radius: 2rem;
+  padding: 0 2rem;
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+  word-wrap: none;
+}
+
+.youTube .nav-youtube .formData .form .failds input::-webkit-input-placeholder {
+  color: crimson;
+}
+
+.youTube .nav-youtube .formData .form .failds input:-ms-input-placeholder {
+  color: crimson;
+}
+
+.youTube .nav-youtube .formData .form .failds input::-ms-input-placeholder {
+  color: crimson;
+}
+
+.youTube .nav-youtube .formData .form .failds input::placeholder {
+  color: crimson;
+}
+
+.youTube .nav-youtube .formData .form .button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  outline: none;
+  border: 0.2rem solid #2f1994;
+  background: #fff;
+  color: #2f1994;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.container #h2 {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: capitalize;
+  display: none;
+}
+
+.container .videoD {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .videoD iframe {
+  padding: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
